@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+    background-color: #181818;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+}
+
+.firstrow,
+.secondrow,
+.thirdrow,
+.fourthrow,
+.fifthrow {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #313131;
+
+    color: #818181;
+}
+
+.button:hover {
+    background-color: #454545;
+    color: #818181;
+}
+
+.viewfinder {
+    width: 229px;
+    background-color: #818181;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 31px;
+}
+
+.reset {
+    width: 71px;
+}
+
+.key {
+    margin: 2px 2px;
+    border-radius: 4px;
+}
+
+.reset {
+    color: #181818;
+    background-color: #ff9900;
+}
+
+.reset:hover {
+    background-color: #ffad32;
+}
+
+.equals {
+    color: #181818;
+    background-color: #454545;
+}
+
+.equals:hover {
+    color: #181818;
+    background-color: #818181;
+}
+
+.hoverbutton {
+    background-color: #454545;
+    color: #818181;
+}
+
+.hoverequals {
+    color: #181818;
+    background-color: #818181;
+}
+
+.hoverreset {
+    background-color: #ffad32;
+    ;
+}
